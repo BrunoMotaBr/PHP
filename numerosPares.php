@@ -1,0 +1,12 @@
+<?php
+$contador = 0;
+
+
+while($contador <= 100){
+    if($contador % 2 == 0){
+        echo "Número $contador" . PHP_EOL;
+        $contador++;
+        continue;
+    }
+    $contador++;
+}
